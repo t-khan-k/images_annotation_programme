@@ -1,7 +1,11 @@
-INFO - getNewImage.php
-Random index = 60
-Not annotated 80%
-No annotations found.
-Annotations a:0:{}
-URL image = data/images/collection_01/part_1/gulls-seagull-wings-feather-56593.jpg
-Annotations a:4:{s:3:"url";s:70:"data/images/collection_01/part_1/gulls-seagull-wings-feather-56593.jpg";s:2:"id";s:37:"gulls-seagull-wings-feather-56593.jpg";s:6:"folder";s:20:"collection_01/part_1";s:11:"annotations";a:0:{}}
+INFO - Synthesis of last submit
+Monday 18th of March 2019 03:13:31 PM
+O:8:"stdClass":6:{s:3:"url";s:44:"data/images/collection_01/part_1/media-1.jpg";s:2:"id";s:11:"media-1.jpg";s:6:"folder";s:20:"collection_01/part_1";s:5:"width";i:1125;s:6:"height";i:750;s:11:"annotations";a:1:{i:0;O:8:"stdClass":5:{s:3:"tag";s:5:"Eagle";s:1:"x";d:737.4476987447698;s:1:"y";d:333.4205020920502;s:5:"width";d:293.41004184100416;s:6:"height";d:262.02928870292885;}}}
+Annotations = 1
+xmlVocAnnotations created
+Before saving
+Before genXML()
+Save annotations to ../data/annotations/media-1.xml
+Xml file: media-1.xml
+End of file validationTagsAndRegions  INFO - Start the loop
+INFO - Start the loop
