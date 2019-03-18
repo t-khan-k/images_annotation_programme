@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<annotation>
+  <folder>collection_01/part_1</folder>
+  <filename>media-2.jpg</filename>
+  <path/>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size_part>
+    <width>1120</width>
+    <height>750</height>
+    <depth>3</depth>
+  </size_part>
+  <segmented>0</segmented>
+  <object>
+    <name>Long Beak Bird</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>455.53997194951</xmin>
+      <ymin>218.88075313808</ymin>
+      <xmax>764.99298737728</xmax>
+      <ymax>647.2280334728</ymax>
+    </bndbox>
+  </object>
+</annotation>
