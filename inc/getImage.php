@@ -105,9 +105,13 @@ else
 	$annotations = [];
 }
 
+$db = file_get_contents("brand.json");
+$db = json_decode($db, true);
+$obj = search($db, 'imageName', "media-".$imageId.".jpg");
+
 # Prepare message to send
 $data = array ("url" => $url, "id" => $id, "folder" => $image_info["type"] . "/" . $image_info["msn"],
-				"annotations" => $annotations);
+				"annotations" => $annotations, "name" => $obj["name"], "source" => $obj["source"]);
 
 header('Content-Type: application/json');
 echo json_encode($data);

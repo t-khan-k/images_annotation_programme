@@ -775,6 +775,8 @@
 					json_annotations = dataJson.annotations;
 					$('#image_id').text(image_id);
 					$('#image_to_process').attr("src", image_info.url);
+					$('#brand_name').text(dataJson.name);
+					$('#brand_source').text(dataJson.source);
 
 					/*$('#image_to_process').selectAreas(
                     {
@@ -821,6 +823,10 @@ body>
 			<td id="col1" style="background-color:#fff">&nbsp;</td>
 
 			<td id="col2"style="white-space:nowrap;background-color:#fff;width:60%;max-width:800px">
+				<div>
+					<div>Brand: <b id="brand_name"></b></div>
+					<div>Source: <b id="brand_source"></b></div>
+				</div>
 				<img id="image_to_process" src="./images/wait.gif">
 			</td>
 
